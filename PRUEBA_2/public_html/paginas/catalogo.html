@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>CATALOGO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="../diseño.css">
+        <style>
+            body {font-family: 'Comic Sans MS', cursive, sans-serif;
+                  background-image: url('../imagenes/fondo_patas_3.png'); 
+                  background-attachment: fixed;
+                  background-size: cover; 
+                  background-position: center;
+                  background-repeat: no-repeat;}
+            body::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 222%;
+                    background-color: rgba(255, 255, 255, 0.7); /* Superposición blanca con 70% de transparencia */
+                    z-index: -1; /* Asegura que esté detrás del contenido */
+                }
+        </style>
+    </head>
+    <body>
+        <img src="../imagenes/logo3.png"
+             alt="Logo"
+             width="330" 
+             height="300"
+             style="border: none; box-shadow: none;">
+        
+        <div class="barra-navegacion">
+            <a href="../inicio.html" style="margin-right: 10px">
+                <i class="fas fa-home" style="color: white;"></i>
+            </a>
+            <a href="../paginas/catalogo.html" class="enlace-navegacion">Catálogo</a><br>
+            <a href="../paginas/servicios.html" class="enlace-navegacion">Servicios</a><br>
+            <a href="../paginas/talleres.html" class="enlace-navegacion">Talleres</a><br>
+            <a href="../paginas/contacto.html" class="enlace-navegacion">Contacto</a>
+            <form>
+            <input type="text" placeholder="Buscar..." name="search">
+            <button type="submit">🔍</button>
+            </form>
+        </div><br>
+        
+        <div class="texto-centrado">
+        <header>
+            <p class="titulo" style="color: darkmagenta;"><i class="fas fa-paint-brush" style="margin-right: 20px;"></i>CATALOGO</p>
+        </header>
+
+        <h3 class="negrita">PRODUCTOS A PEDIDO CON TU TALLA Y COLORES FAVORITOS 🌻</h3>
+        <h4 class="negrita">ZAPATILLAS</h4><br>
+        <img src="../imagenes/catalogo/zapatillas/zap_1.jpeg" alt="Zapatilla_1" width="230" height="200">
+        <img src="../imagenes/catalogo/zapatillas/zap_2.jpeg" alt="Zapatilla_2" width="230" height="200">
+        <h4 class="negrita">PRENDAS DE VESTIR</h4><br>
+        <img src="../imagenes/catalogo/prendas/prenda_1.jpg" alt="Prenda_1" width="230" height="200">
+        <img src="../imagenes/catalogo/prendas/prenda_2.jpg" alt="Prenda_2" width="230" height="200">
+        <h4 class="negrita">ACCESORIOS</h4><br>
+        <img src="../imagenes/catalogo/accesorios/accesorio_1.jpg" alt="Accesorio_1" width="230" height="200">
+        <img src="../imagenes/catalogo/accesorios/accesorio_2.jpg" alt="Accesorio_2" width="230" height="200">
+        <h4 class="negrita">CHAQUETAS Y ABRIGOS</h4>
+        <img src="../imagenes/catalogo/chaquetas/chaqueta_1.jpg" alt="Chaqueta_1" width="230" height="200">
+        <img src="../imagenes/catalogo/chaquetas/chaqueta_2.jpg" alt="Chaqueta_2" width="230" height="200">
+        
+        </div><br><br>
+        
+        <div class="pie-pagina">
+            <p>&copy; 2024 Pinto Tus Pasos. Todos los derechos reservados.</p>
+        </div>
+        
+    </body>
+</html>

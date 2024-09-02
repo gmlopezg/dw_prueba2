@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Pinto Tus Pasos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="diseño.css">
+        <style>
+            body {font-family: 'Comic Sans MS', cursive, sans-serif;
+                  background-image: url('imagenes/fondo_patas_3.png');
+                  background-attachment: fixed;
+                  background-size: cover; 
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  }
+            body::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 222%;
+                    background-color: rgba(255, 255, 255, 0.7); /* Superposición blanca con 70% de transparencia */
+                    z-index: -1; /* Asegura que esté detrás del contenido */
+                }          
+        </style>
+    </head>
+    <body>
+
+        <img src="imagenes/logo3.png"
+             alt="Logo"
+             width="330" 
+             height="300"
+             style="border: none; box-shadow: none;">
+        
+        <img src="imagenes/gato2.png"
+        alt="gato"
+        width="700" height="300"
+        class="gato2"
+        style="border: none; box-shadow: none;">
+      
+        <div class="barra-navegacion">
+            <a href="paginas/catalogo.html" class="enlace-navegacion">Catálogo</a><br>
+            <a href="paginas/servicios.html" class="enlace-navegacion">Servicios</a><br>
+            <a href="paginas/talleres.html" class="enlace-navegacion">Talleres</a><br>
+            <a href="paginas/contacto.html" class="enlace-navegacion">Contacto</a>
+            <form>
+            <input type="text" placeholder="Buscar..." name="search">
+            <button type="submit">🔍</button>
+            </form>
+        </div><br>
+        
+        <div class="cuadro-texto">
+        <h2>Descripción de la Empresa</h2>
+        <p>"Pinto tus pasos" es una empresa familiar fundada hace 8 años por una talentosa
+        creadora de vestuario, inspirada por su fiel mascota, un gato que dio origen al nombre de
+        la marca. Desde entonces, hemos crecido y evolucionado, pero mantenemos nuestro
+        compromiso con la creatividad, la personalización y la sostenibilidad. Nos especializamos
+        en diseñar y pintar a mano zapatillas, prendas de vestir, accesorios y chaquetas, utilizando
+        productos ecológicos y sellantes con filtro solar para garantizar la durabilidad y el cuidado
+        de cada pieza. Nuestro equipo está compuesto por la diseñadora y su hijo, quienes
+        trabajan juntos para hacer realidad las ideas de nuestros clientes, con el apoyo de un
+        colaborador encargado de los repartos en Santiago.</p>
+        </div>
+        
+        <div class="cuadro-texto">
+        <h2>Misión</h2>
+        <p>En "Pinto tus pasos", nuestra misión es dar vida a las ideas y deseos de nuestros
+        clientes, creando productos únicos y personalizados que reflejen su identidad y estilo. Nos
+        dedicamos a ofrecer calidad y durabilidad en cada pieza, utilizando materiales ecológicos y
+        técnicas de pintura que respeten el medio ambiente. Creemos en el valor de lo hecho a
+        mano y en el poder de la creatividad para transformar lo cotidiano en algo extraordinario.
+        </p>
+        </div>
+        
+        <div class="cuadro-texto">
+        <h2>Visión</h2>
+        <p>Nuestra vision es ser reconocidos como líderes en la creación de productos
+        personalizados y sostenibles en el ámbito de la moda, expandiendo nuestro alcance más
+        allá de Santiago y llevando nuestra pasión por el arte y el diseño a nuevas audiencias.
+        Aspiramos a crecer como una empresa familiar que sigue fiel a sus valores, mientras
+        exploramos nuevas formas de innovación y expansión sin perder nuestro compromiso con
+        la calidad y el respeto por el medio ambiente.</p>
+        </div>
+        
+        <div class="texto-centrado">
+        <h2  style="color: darkmagenta">IMAGENES</h2>
+        <img src="imagenes/zapatilla_mariposa.jpeg"
+        alt="zapatilla_mariposa"
+        width="300" height="200">
+        <img src="imagenes/zapatilla_heroina.jpeg"
+        alt="zapatilla_heroina"
+        width="300" height="200">
+        </div><br><br>
+
+        <div class="pie-pagina">
+            <p>&copy; 2024 Pinto Tus Pasos. Todos los derechos reservados.</p>
+        </div>
+        
+    </body>
+</html>
+
